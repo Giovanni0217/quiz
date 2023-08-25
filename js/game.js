@@ -2,24 +2,44 @@
 $(document).ready(function () {
     const perguntas = [{
         pergunta: 'De quem é a famosa frase "Penso, logo existo."?',
-        respostas: ["HTML", "PHP", "JavaScript", "C++"],
+        respostas: ["Descartes", "Galileu Galilei", "Platão", "Sócrates"],
         correta: "resp0"
     }, {
         pergunta: "Em que ano o Brasil foi descoberto?",
         respostas: ["1948", "1500", "1629", "1712"],
         correta: "resp1"
     }, {
-        pergunta: "Qual dessas linguagens é considerada uma linguagem de marcação?",
-        respostas: ["Java", "Python", "CSS", "C#"],
+        pergunta: "Qual o menor e o maior país do mundo?",
+        respostas: ["Panamá e China", "Mônaco e Estados Unidos", "Vaticano e Rússia", "São Marino e Índia"],
         correta: "resp2"
     }, {
         pergunta: "Qual seleção foi campeã do mundo em 2002?",
         respostas: ["França", "Alemanha", "Itália", "Brasil"],
         correta: "resp3"
     }, {
-        pergunta: "Qual o significado da sigla HTML?",
-        respostas: ["Hyper Text Markup Language", "Hyper Trojan Malware License", "Hyper Tools More List", "Hyper Text Malware List"],
+        pergunta: "Qual o número mínimo de jogadores em cada time em uma partida de futebol?",
+        respostas: ["7", "8", "9", "10"],
         correta: "resp0"
+    }, {
+        pergunta: "Quanto tempo a luz do Sol demora para chegar à Terra?",
+        repostas: ["1 dia", "8 minutos", "12 segundos", " 12 minutos"],
+        correta: "resp1"
+    }, {
+        pergunta: "Em que período da pré-história o fogo foi descoberto?",
+        repostas: ["Neolítico", "Idade da Pedra", "Paleolítico", "Idade do Ferro"],
+        correta: "resp2"
+    }, {
+        pergunta: "Qual o maior animal terrestre?",
+        repostas: ["Girafa", "Dinossauro", "Tubarão Branco", "Elefante Africano"],
+        correta: "resp3"
+    }, {
+        pergunta: "Quem foi o primeiro homem a pisar na Lua? Em que ano aconteceu?",
+        repostas: ["Neil Armstrong, em 1969", "Charles Duke, em 1971", "Charles Conrad, em 1969", "Buzz Aldrin, em 1971"],
+        correta: "resp0"
+    }, {
+        pergunta: "Quais são os cromossomos que determinam o sexo masculino?",
+        repostas: ["X", "Y", "Z", "A"],
+        correta: "resp1"
     }];
 
     var qtdPerguntas = perguntas.length - 1;
