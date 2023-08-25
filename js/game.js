@@ -22,23 +22,23 @@ $(document).ready(function () {
         correta: "resp0"
     }, {
         pergunta: "Quanto tempo a luz do Sol demora para chegar à Terra?",
-        repostas: ["1 dia", "8 minutos", "12 segundos", " 12 minutos"],
+        respostas: ["1 dia", "8 minutos", "12 segundos", " 12 minutos"],
         correta: "resp1"
     }, {
         pergunta: "Em que período da pré-história o fogo foi descoberto?",
-        repostas: ["Neolítico", "Idade da Pedra", "Paleolítico", "Idade do Ferro"],
+        respostas: ["Neolítico", "Idade da Pedra", "Paleolítico", "Idade do Ferro"],
         correta: "resp2"
     }, {
         pergunta: "Qual o maior animal terrestre?",
-        repostas: ["Girafa", "Dinossauro", "Tubarão Branco", "Elefante Africano"],
+        respostas: ["Girafa", "Dinossauro", "Tubarão Branco", "Elefante Africano"],
         correta: "resp3"
     }, {
         pergunta: "Quem foi o primeiro homem a pisar na Lua? Em que ano aconteceu?",
-        repostas: ["Neil Armstrong, em 1969", "Charles Duke, em 1971", "Charles Conrad, em 1969", "Buzz Aldrin, em 1971"],
+        respostas: ["Neil Armstrong, em 1969", "Charles Duke, em 1971", "Charles Conrad, em 1969", "Buzz Aldrin, em 1971"],
         correta: "resp0"
     }, {
         pergunta: "Quais são os cromossomos que determinam o sexo masculino?",
-        repostas: ["X", "Y", "Z", "A"],
+        respostas: ["X", "Y", "Z", "A"],
         correta: "resp1"
     }];
 
