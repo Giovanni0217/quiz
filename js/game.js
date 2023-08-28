@@ -42,6 +42,13 @@ $(document).ready(function () {
         correta: "resp1"
     }];
 
+    $('#quiz-game').addClass('oculto');
+
+    $('#startGame').click(function () {
+        $('#quiz-game').removeClass('oculto');
+        $('#start').addClass('oculto')
+    });
+
     var qtdPerguntas = perguntas.length - 1;
 
     let perguntasFeitas = [];
